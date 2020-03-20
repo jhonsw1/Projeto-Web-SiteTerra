@@ -1,0 +1,90 @@
+#koala {
+    --skin: #a6becf;
+    --orelha: #819caf;
+    --nariz: #be845f;
+    --pupila: #27354a;
+    background-color: dodgerblue;
+
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 191px;
+    height: 134px;
+}
+#container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#face {
+    height: 98px;
+    width: 103px;
+    background: var(--skin);
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+#orelha {
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+    position: absolute;
+    top: 0;
+}
+.orelha {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: var(--orelha);
+    border: 10px solid var(--skin);
+    border-radius: 100%;
+}
+#cabelo{
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    background: var(--skin);
+    top: -7px;
+    left: 50%;
+    transform: translate(-50%);
+    clip-path: polygon(-13% 51%, 25% 0,78% 220%, 91% 70%, 87% 16%);
+}
+.olho {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background: #ffff;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.olho:nth-child(1){
+    margin-right: -10px;
+}
+#olhos {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.olho:before {
+    content: '';
+    display: block;
+    height: 10px;
+    width: 10px;
+    background: var(--pupila);
+    border-radius: 100%;
+}
+#nariz {
+    background: var(--nariz);
+    height: 40px;
+    width: 24px;
+    border-radius: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50%;
+}

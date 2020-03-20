@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: OpenSans,sans-serif;
+}
+.menu {
+    background-color: #ff7212;
+    width: 100%;
+    height: 55px;
+}
+.menu input {
+    background-image: url('./img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 98%;
+    margin-top: 7px;
+    margin-left: 13px;
+    width: 220px;
+    border: none;
+    outline: none;
+}
+#inputBusca {
+    font-size: 20px;
+    background-color: #ffff;
+    height: 30px;
+    width: 235px;
+    border-radius: 15px;
+    margin-top: 13px;
+    float: left;
+}
+.fas { 
+    color: white;
+    font-size: 25px;
+}
+.menu a {
+    text-decoration: none;
+}
+.logoMenu span {
+    color: #ffff;
+    font-size: 14px;
+}
+.logoMenu {
+    width: 6%;
+    float: left;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+.logoTerra {
+    margin-left: 25%;
+    padding-top: 5px;
+    float: left;
+}
+.painel {
+    width: 550px;
+    height: 53px;
+    float: right;
+    padding-top: 12px;
+}
+.painel span {
+    font-size: 13px;
+    text-align: right;
+    color: #ffff; 
+    vertical-align: baseline;
+}
+.contatos {
+    width: 60%;
+    height: 80px;
+    float: right;
+    margin-top: -45px;
+    padding-right: 10px;
+}
+.contatos ul li {
+    float: left;
+    display: inline-block;
+    margin-left: 13px;
+    list-style: none;
+}
+#align {
+    margin-left: 18px;;
+}
+.anuncios {
+    width: 70%;
+    height: 769px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.anuncio1 {
+    width: 319px;
+    height: 141px;
+    border: 0.20px solid rgb(189, 188, 188);
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.anuncio1 a {
+    color: #c11c05;
+    font-size: 7px;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.anuncio1 span {
+    margin: 0 auto;
+    color: black;
+}
+img {
+    padding-right: 9px;
+}
+.anuncio2 {
+    width: 319px;
+    height: 141px;
+    background-color: blue;
+    margin-top: 217px;
+    margin-left: 50px;
+    position: absolute;
+}
+.anuncio3 {
+    width: 319px;
+    height: 141px;
+    background-color: rgb(185, 184, 184);
+    position: absolute;
+    float: right;
+    margin-left: 390px;
+    margin-top: 50px;
+    
+}
+.anuncio4 {
+    width: 319px;
+    height: 141px;
+    background-color: blue;
+    margin-top: 217px;
+    margin-left: 390px;
+    position: absolute;
+}
